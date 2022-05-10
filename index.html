@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="https://assets.chucknorris.host/img/avatar/chuck-norris.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <title>Chuck Norris Jokes!</title>
+
+</head>
+<body>
+  <main>
+    <header>
+      <h1>The Ultimate Chuck Norris' Jokes!</h1>
+    </header>
+
+    <article>
+      <img
+        src="http://www.pngmart.com/files/11/Chuck-Norris-Transparent-Background.png"
+        alt="Chuck Norris Floating Head"
+      >
+
+      <button onclick="getJoke();">
+        Get a new random Joke!
+
+        <img
+          src="https://webplayer.tegotv.com/img/loading.gif"
+          id="loader"
+          class="hidden"
+        >
+      </button>
+
+      <p id="error" class="hidden">Ops! Something is wrong. Please, give it another try!</p>
+
+      <div class="joke-wrapper">
+        <span>&quot;</span>
+
+        <p id="joke-text">Chuck Norris is the best!</p>
+      </div>
+    </article>
+
+    <footer>
+      <p></p>
+      <small>
+        
+        <a href="" target="_blank" rel="noreferrer noopener"></a>
+      </small>
+    </footer>
+  </main>
+  
+  <script src="index.js"></script>
+</body>
+</html>
